@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/timetable_home_work"
+        android:title="@string/homework" />
+    <item
+        android:id="@+id/timetable_test"
+        android:title="@string/test" />
+    <item
+        android:id="@+id/timetable_setting"
+        android:title="@string/setting" />
+    <item
+        android:id="@+id/timetable_about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/edit"
+        android:icon="@drawable/ic_edit_white_24dp"
+        app:showAsAction="always"
+        android:title="Edit"/>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745101791073",
+    "firebase_url": "https://ibbul-moble.firebaseio.com",
+    "project_id": "ibbul-moble",
+    "storage_bucket": "ibbul-moble.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745101791073:android:0bae48f4dd3e20da",
+        "android_client_info": {
+          "package_name": "com.ibbumobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745101791073-su4edd3q799kr29qegaeqb9jbrd5r8rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibbumobile",
+            "certificate_hash": "2ef7d5f516c515bb56f2f839ce66a19d11939bcb"
+          }
+        },
+        {
+          "client_id": "745101791073-cdsosa52pa6ld4um2tvgqd80p35n5v7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxGaK9WSt6_uDcjx4DZhPoEaJpUCHoQHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745101791073-cdsosa52pa6ld4um2tvgqd80p35n5v7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

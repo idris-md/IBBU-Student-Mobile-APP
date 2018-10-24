@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:useDefaultMargins="true"
+    tools:context="com.ibbumobile.PeopleActivity"
+    tools:showIn="@layout/activity_people">
+
+    <EditText
+        android:id="@+id/search"
+        style="@android:style/Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:hint="Search IBB University Directory"
+        android:maxEms="1"
+        android:maxLines="1"
+        android:textColor="#737373"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Sample Searches: Name: 'Idris John Garba', 'Musa' Email: 'abdullahikawu', 'abdullahkawu@ibbu.edu.ng', \nPhone: '0806546835'" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="16dp"
+        android:background="#737373" />
+
+    <TextView
+        android:id="@+id/bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Bookmarks"
+        android:textAlignment="textStart"
+        android:textColor="#494949"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#737373" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:text="Select people directory category to browse"
+        android:layout_marginBottom="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#737373" />
+
+    <TextView
+        android:id="@+id/staffDir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Browse Staffs Directory"
+        android:textAlignment="textStart"
+        android:textColor="#494949"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:background="#737373" />
+
+    <TextView
+        android:id="@+id/studentDir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Browse Student Directory"
+        android:textAlignment="textStart"
+        android:textColor="#494949"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#514f4f" />
+
+</LinearLayout>

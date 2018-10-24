@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapTypeNone"
+        android:title="@string/map_type_none" />
+
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="@string/map_type_normal" />
+
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_terrain" />
+
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="@string/map_type_Satellite" />
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_hybrid" />
+    <!-- <item
+         android:id="@+id/search"
+         android:icon="@drawable/ic_search_black_24dp"
+         android:title="Search"
+         app:showAsAction="always"
+         app:actionViewClass="android.widget.SearchView" />
+         -->
+</menu>
